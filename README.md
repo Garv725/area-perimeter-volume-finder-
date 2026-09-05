@@ -55,10 +55,10 @@ The program uses standard mathematical formulas for each shape.
 
 **Example**
 
-**Enter the shape circle
+Enter the shape circle
 Enter the Radius 7
 The area is: 154.0
-The perimeter or circumference is: 44.0**
+The perimeter or circumference is: 44.0
 
 🛠️ **Concepts Used**
 
