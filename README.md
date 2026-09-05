@@ -1,4 +1,4 @@
-📐 Area, Perimeter and Volume Finder
+📐 **Area, Perimeter and Volume Finder**
 
 A Python-based geometry calculator that calculates area, perimeter, surface area, and volume for different 2D and 3D shapes.
 
@@ -79,7 +79,154 @@ This project was created as a Python practice project to improve conditional log
 
 👨‍💻 Author
 
-Garv
+**Garv (GitHub: Garv725)** 
 
 Built with 🐍 Python 3
+
+```python
+print("="*60)
+print("Area,Perimeter and Volume Finder")
+print("="*60)
+
+while True:
+    shape = str(input("Enter the shape "))
+    if shape == 'exit':
+        break
+    elif shape == 'square' or shape == 'Square':
+        length = input("Enter the Length of the side ")
+        if length == 'exit':
+            break
+        else:
+         length = float(length)
+         print("The area is:",length*length)
+         print("The perimeter is:",4*length)
+    elif shape == 'rectangle' or shape == 'Rectangle':
+        length = input("Enter the Length ")
+        if length == 'exit':
+            break
+        else:
+          length = float(length)
+          breadth = input("Enter the Breadth ")
+        if breadth == 'exit':
+            break
+        else:
+            breadth = float(breadth)
+            print("The area is:",length*breadth)
+            print("The perimeter is:",2*(length+breadth))
+    elif shape == 'cube' or shape == 'Cube':
+        length = input("Enter the Length of the side ")
+        if length == 'exit':
+            break
+        else:
+          length = float(length)
+          print("The area is:",6*(length**2))
+          print ("The volume is:",length**3)
+    elif shape == 'cuboid' or shape == 'Cuboid':
+        length = input("Enter the Length ")
+        if length == 'exit':
+            break
+        else:
+          length = float(length)
+          breadth = input("Enter the Breadth ")
+        if breadth == 'exit':
+            break
+        else:
+            breadth = float(breadth)
+            height = input("Enter the Height ")
+        if height == 'exit':
+            break
+        else:
+            height = float(height)
+            print("The area is:",2*(length*breadth + breadth*height + height*length))
+            print ("The volume is:",length*breadth*height)
+    elif shape == 'circle' or shape == 'Circle':
+        length = input("Enter the Radius ")
+        if length == 'exit':
+                break
+        else:
+              length = float(length)
+              print("The area is:",22/7*(length**2))
+              print("The perimeter or circumference is:",2*22/7*length) 
+    elif shape == 'triangle' or shape == 'Triangle':
+        length = input("Enter the Length of first side ")
+        if length == 'exit':
+            break
+        else:
+              length = float(length)
+              breadth = input("Enter the Length of second side ")
+        if breadth == 'exit':
+            break
+        else:
+            breadth = float(breadth)
+            height = input("Enter the Length of third side ")
+        if height == 'exit':
+            break
+        else:
+            height = float(height)
+            per_height = input("Enter the Perpendicular Height ")
+        if per_height == 'exit':
+            break
+        else:
+            per_height = float(per_height)
+            print ("The area is:",1/2*length*per_height)
+            print ("The perimeter is:",length+breadth+height)
+    elif shape == 'sphere' or shape == 'Sphere':
+        length = input("Enter the Radius ") 
+        if length == 'exit':
+            break
+        else:
+              length = float(length)
+              print("The area is:",4*22/7*(length**2))
+              print ("The volume is:",4/3*22/7*(length**3))
+    elif shape == 'semicircle' or shape == 'Semicircle':
+        length = input("Enter the Radius ")
+        if length == 'exit':
+            break
+        else:
+              length = float(length)
+              print("The area is:",1/2*22/7*(length**2))
+              print ("The perimeter or circumference is:",length*(22/7+2))
+    elif shape == 'cylinder' or shape == 'Cylinder':
+        length = input("Enter the Radius ")
+        if length == 'exit':
+            break
+        else:
+              length = float(length)
+              height = input("Enter the Height ")
+        if height == 'exit':
+            break
+        else:
+            height = float(height)
+            print ("The area is:",2*22/7*length*(length+height))
+            print ("The volume is:",22/7*(length**2)*height)
+    elif shape == 'hemisphere' or shape == 'Hemisphere':
+        length = input("Enter the Radius ")
+        if length == 'exit':
+            break
+        else:
+              length = float(length)
+              print ("The curved surface area is:",2*22/7*(length**2))
+              print ("The total surface area is:",3*22/7*(length**2))
+              print ("The volume is:",2/3*22/7*(length**3))
+    elif shape == 'cone' or shape == 'Cone':
+        length = input("Enter the Radius ")
+        if length == 'exit':
+            break
+        else:
+              length = float(length)
+              breadth = input("Enter the Slant Height ")
+        if breadth == 'exit':
+            break
+        else:
+            breadth = float(breadth)
+            height = input("Enter the Perpendicular Height ")
+        if height == 'exit':
+            break
+        else:
+            height = float(height)
+            print("The curved surface area is:",22/7*length*breadth)
+            print ("The total surface area is:",22/7*length*(breadth + length))
+            print ("The volume is:",1/3*22/7*(length**2)*height)
+    else:
+        print("Invalid! ")
 
