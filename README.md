@@ -53,13 +53,6 @@ The program uses standard mathematical formulas for each shape.
 5. View the calculated result.
 6. Type "exit" when you want to close the program.
 
-**Example**
-
-Enter the shape circle
-Enter the Radius 7
-The area is: 154.0
-The perimeter or circumference is: 44.0 
-
 🛠️ **Concepts Used**
 
 This project was made using basic Python concepts:
