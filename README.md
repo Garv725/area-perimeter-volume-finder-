@@ -2,7 +2,7 @@
 
 A Python-based geometry calculator that calculates area, perimeter, surface area, and volume for different 2D and 3D shapes.
 
-✨ Features
+✨ **Features**
 
 - Supports 11 different shapes
 - Calculates area and perimeter for 2D shapes
@@ -12,9 +12,9 @@ A Python-based geometry calculator that calculates area, perimeter, surface area
 - Accepts decimal values using "float()"
 - Handles both lowercase and capitalized shape names
 
-📚 Supported Shapes
+📚 **Supported Shapes**
 
-2D Shapes
+**2D Shapes**
 
 - Square
 - Rectangle
@@ -22,7 +22,7 @@ A Python-based geometry calculator that calculates area, perimeter, surface area
 - Triangle
 - Semicircle
 
-3D Shapes
+**3D Shapes**
 
 - Cube
 - Cuboid
@@ -31,11 +31,11 @@ A Python-based geometry calculator that calculates area, perimeter, surface area
 - Hemisphere
 - Cone
 
-🧮 Calculations
+🧮 **Calculations**
 
 The program uses standard mathematical formulas for each shape.
 
-For example:
+**For example:**
 
 - Square → Area and Perimeter
 - Circle → Area and Circumference
@@ -44,7 +44,7 @@ For example:
 - Cuboid → Surface Area and Volume
 - Cone → Curved Surface Area, Total Surface Area and Volume
 
-▶️ How to Run
+▶️ **How to Run**
 
 1. Make sure Python 3 is installed.
 2. Run the Python file.
@@ -53,14 +53,14 @@ For example:
 5. View the calculated result.
 6. Type "exit" when you want to close the program.
 
-Example
+**Example**
 
-Enter the shape circle
+**Enter the shape circle
 Enter the Radius 7
 The area is: 154.0
-The perimeter or circumference is: 44.0
+The perimeter or circumference is: 44.0**
 
-🛠️ Concepts Used
+🛠️ **Concepts Used**
 
 This project was made using basic Python concepts:
 
@@ -73,15 +73,15 @@ This project was made using basic Python concepts:
 - "while True"
 - "break"
 
-🎯 Purpose
+🎯 **Purpose**
 
 This project was created as a Python practice project to improve conditional logic, loops, mathematical calculations, and problem-solving skills.
 
-👨‍💻 Author
+👨‍💻 **Author**
 
 **Garv (GitHub: Garv725)** 
 
-Built with 🐍 Python 3
+**Built with 🐍 Python 3**
 
 ```python
 print("="*60)
